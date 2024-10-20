@@ -1,0 +1,35 @@
+//Game/FactoryGame/Recipes/Buildings/Recipe_PortalSatellite.Recipe_PortalSatellite_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Satellite Portal",
+"Ingredients": [
+{
+      "Item": "Desc_Motor",
+      "Amount": 10
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 15
+ },
+{
+      "Item": "Desc_CrystalOscillator",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_Computer",
+      "Amount": 20
+ },
+{
+      "Item": "Desc_SAMFluctuator",
+      "Amount": 25
+ }
+],
+"Products": [
+{
+      "Item": "Desc_PortalSatellite",
+      "Amount": 1
+ }],
+"UnlockedBy": ["Schematic_6-1_C"],
+"ClearIngredients": true,
+"ClearProducts": true
+}

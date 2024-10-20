@@ -1,0 +1,40 @@
+//Game/FactoryGame/Recipes/HadronCollider/Recipe_SingularityCell.Recipe_SingularityCell_C
+{
+"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"Name": "Singularity Cell",
+"Ingredients": [
+{
+      "Item": "Desc_ModularFrameHeavy",
+      "Amount": 1
+ },
+{
+      "Item": "Desc_SAMFluctuator",
+      "Amount": 25
+ },
+{
+      "Item": "Desc_IronPlate",
+      "Amount": 80
+ },
+{
+      "Item": "Desc_Cement",
+      "Amount": 160
+ }
+],
+"Products": [
+{
+      "Item": "Desc_SingularityCell",
+      "Amount": 2
+ }
+],
+"ManufacturingDuration": 60.0,
+"ProducedIn": ["Build_ManufacturerMk1_C"],
+"OverrideCategory": "Cat_Electronics_C",
+"ManufacturingMenuPriority": 12.0,
+"UnlockedBy": ["Schematic_6-1_C"],
+"ManualManufacturingMultiplier": 60.0,
+"VariablePowerConsumptionConstant": 0.0,
+"VariablePowerConsumptionFactor": 0.0,
+"ClearIngredients": true,
+"ClearProducts": true,
+"ClearBuilders": true
+}
