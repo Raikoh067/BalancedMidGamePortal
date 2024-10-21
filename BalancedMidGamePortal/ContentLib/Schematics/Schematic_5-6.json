@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Schematic.json",
+    "Name": "Spatial Energy Regulation Mk.1",
+    "Type": "Milestone",
+    "VisualKit": "Kit_NewTier6Milestone",
+    "Cost": [{
+          "Item": "Desc_ModularFrameHeavy",
+          "Amount": 50
+     },
+    {
+          "Item": "Desc_Computer",
+          "Amount": 100
+     },
+    {
+          "Item": "Desc_SAMIngot",
+          "Amount": 500
+     },
+    {
+          "Item": "Desc_CrystalOscillator",
+          "Amount": 100
+     }],
+    "Category": "SC_Logistics_C",
+    "MenuPriority": 6.0,
+    "Time": 600.0,
+    "Tier": 6,
+    "Recipes": ["Recipe_Portal_C","Recipe_PortalSatellite_C","Recipe_SingularityCell_C"]
+}

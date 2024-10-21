@@ -1,8 +1,6 @@
 //Game/FactoryGame/Buildable/Factory/Portal/Desc_Portal.Desc_Portal_C
 {
-"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
-"Name": "Main Portal",
-"NameShort": "",
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Item.json",
 "Description": "Enables pioneer teleportation between two linked Portals.
 
 Each Portal can only have a single link. 
@@ -12,15 +10,8 @@ A Fuel source needs to be supplied to the Main Portal which will be consumed to 
 
 WARNINGS:
 - Massive power draw will occur during start-up. Power Storage recommended. 
-- Large power draw on use. Increases with travel distance.
 - Link start-up will take time. Letting the connection expire is not recommended.
+- Large power draw on use. Increases with travel distance.
 - Failure to deliver sufficient Fuel will cause the link to expire.
-- FICSIT does not condone the use of wormhole technology. Any usage of wormhole technology is at the user's own risk.",
-"CanBeDiscarded": true,
-"RememberPickUp": false,
-"EnergyValue": 0.0,
-"RadioactiveDecay": 0.0,
-"Form": "Invalid",
-"Category": "BC_Vehicles_C",
-"StackSize": "Medium"
+- FICSIT does not condone the use of wormhole technology. Any usage of wormhole technology is at the user's own risk."
 }

@@ -1,7 +1,8 @@
 //Game/FactoryGame/Recipes/HadronCollider/Recipe_SingularityCell.Recipe_SingularityCell_C
 {
-"$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Recipe.json",
+"$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/refs/heads/main/JsonSchemas/CL_Recipe.json",
 "Name": "Singularity Cell",
+"ClearIngredients": true,
 "Ingredients": [
 {
       "Item": "Desc_ModularFrameHeavy",
@@ -20,6 +21,7 @@
       "Amount": 160
  }
 ],
+"ClearProducts": true,
 "Products": [
 {
       "Item": "Desc_SingularityCell",
@@ -30,11 +32,6 @@
 "ProducedIn": ["Build_ManufacturerMk1_C"],
 "OverrideCategory": "Cat_Electronics_C",
 "ManufacturingMenuPriority": 12.0,
-"UnlockedBy": ["Schematic_6-1_C"],
-"ManualManufacturingMultiplier": 60.0,
-"VariablePowerConsumptionConstant": 0.0,
-"VariablePowerConsumptionFactor": 0.0,
-"ClearIngredients": true,
-"ClearProducts": true,
-"ClearBuilders": true
+"UnlockedBy": ["Schematic_5-6"],
+"ManualManufacturingMultiplier": 60.0
 }

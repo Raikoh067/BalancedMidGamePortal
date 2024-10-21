@@ -1,0 +1,24 @@
+//Game/FactoryGame/Schematics/Progression/Schematic_9-4.Schematic_9-4_C
+{
+    "$schema": "https://github.com/budak7273/ContentLib_Documentation/blob/main/JsonSchemas/CL_Item.json",
+    "Name": "Spatial Energy Regulation Mk.2",
+    "ClearCosts": true,
+    "Cost": [{
+        "Item": "Desc_QuantumOscillator",
+        "Amount": 50
+   },
+  {
+        "Item": "Desc_MotorLightweight",
+        "Amount": 150
+   },
+  {
+        "Item": "Desc_ModularFrameLightweight",
+        "Amount": 300
+   },
+  {
+        "Item": "Desc_SAMFluctuator",
+        "Amount": 700
+   }],
+    "ClearRecipes": true,
+    "Recipes": ["Recipe_SpaceElevatorPart_11_C","Recipe_Alternate_DarkMatterSingularityCell_C"]
+}

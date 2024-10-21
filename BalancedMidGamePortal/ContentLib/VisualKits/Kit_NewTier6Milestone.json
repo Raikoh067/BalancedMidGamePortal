@@ -1,0 +1,6 @@
+{
+      "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_VisualKit.json",
+      "BigIcon": "TXUI_SIcon_Portal",
+      "SmallIcon": "TXUI_SIcon_Portal"
+    }
+

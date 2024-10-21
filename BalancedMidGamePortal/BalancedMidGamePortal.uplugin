@@ -1,9 +1,10 @@
 {
   "FileVersion": 3,
   "Version": 1,
-  "VersionName": "1.0.0",
-  "SemVersion": "1.0.0",
-  "FriendlyName": "Balanced Mid Game Portal",
+  "VersionName": "1.1.0",
+  "SemVersion": "1.1.0",
+  "GameVersion": ">=368883",
+  "FriendlyName": "Balanced Mid-Game Portal",
   "Description": "Adds the ability to create Portals as early as Tier 6 in a balanced way.",
   "Category": "Modding",
   "CreatedBy": "Raikoh",
